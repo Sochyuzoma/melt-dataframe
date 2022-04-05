@@ -1,0 +1,5 @@
+df = df.melt(id_vars=['sap_id','product_name'],value_vars=['adedan','akinjobi','amusa','anuoluwapo','arkshalom','attah','baxfah','baykem','bolanle','bose','chasanjo','damilat','dasdem','demercy','demyke','divinemercy','divinestore','edency','edmond','emmadocsam','endurance','fortune','fumilayo','gbebol','gm','Godcare','Godsgrace','Godsown','healthiswealth','iyanuife','johnluckychidera','jokeola','josanna','karmhat','kenbridge','kesdamma','kosoko','kossykamsy','ladyb','mike','modesty','mummydee','nebohood','neighbourhood','nifemi','oduyemi','okcare','olaoluwa','rainbravow','salvation','sebytek','steady','success','thankGod','tnf','tolay','tripplec','victoriouslink','yuslat'], var_name='FACILITY', value_name='QUANTITY', col_level=None, ignore_index=True)
+df
+dk = df.reset_index().rename(columns ={'index':'sap_id'})
+dk
+dk.to_csv(r'C:\Users\Sochi\Downloads\APRIL_FORECASTvertical.csv')
